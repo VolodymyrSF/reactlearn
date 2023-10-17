@@ -12,34 +12,3 @@ const Simpson = ({inform}) => {
 };
 
 export  {Simpson};
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const simpson = ({item}) => {
-//     // console.log(props);
-//     const {name} = simpson();
-//
-//     return (
-//         <div>
-//             <div>name: {name}</div>
-//         </div>
-//     );
-// };
-//
-// export {simpson};

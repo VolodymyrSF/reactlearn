@@ -2,7 +2,6 @@ import React from 'react';
 
 
 const RickAndMortyStructure = ({prop}) => {
-    console.log(prop)
     const {id,name,status,species,type,gender,image}=prop
     return (
         <div>

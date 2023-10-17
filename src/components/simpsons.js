@@ -49,37 +49,3 @@ const Simpsons = () => {
 export  {Simpsons};
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import {simpson} from "./simpson";
-// const Simpsons = () => {
-//     const simpsons =
-//         [
-//             {id:1, name:'Homer'},
-//             {id:2, name: 'Marge'},
-//             {id:3, name:'Lisa'},
-//             {id:4, name:'Bart'},
-//             {id:5, name:'Maggie'}
-//         ]
-//     return (
-//         <div>
-//             {simpsons.map(simpson => <simpson key={simpson.id} simpson={item}/>)}
-//         </div>
-//     );
-// };
-
-// export {Simpsons};
