@@ -8,7 +8,6 @@ const Post = ({info,click}) => {
             <h3 className={style.point}><b>id:</b>{id}</h3>
             <h3 className={style.point}><b>title:</b>{title}</h3>
             <button className={style.button} onClick={()=>click(id)}>more</button>
-
         </div>
     );
 };
