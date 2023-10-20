@@ -1,0 +1,19 @@
+.post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin: 5px;
+    border: 2px solid black;
+    width: calc( 15% - 12px);
+}
+.point{
+    margin: 5px;
+}
+.button{
+    border: black solid 1px;
+    border-radius: 15px;
+    font-size: 15px;
+
+}
