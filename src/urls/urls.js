@@ -10,8 +10,9 @@ const urls={
     todos,
     albums,
     comments,
-    posts:{
-        getById:(postId)=>`${posts}/${postId}`
+    post:{
+        base:posts,
+        getById:(postId)=>`/posts/${postId}`
     }
 
 }

@@ -4,7 +4,7 @@ import {albumsService} from "../../services/albumsService";
 import {Album} from "./Album";
 
 const Albums = () => {
-    const {albums,setAlbums}=useState([])
+    const [albums,setAlbums]=useState([])
 
     useEffect(()=>{
         albumsService.getAll().then(({data})=>setAlbums(data))

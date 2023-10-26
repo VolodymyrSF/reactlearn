@@ -4,7 +4,7 @@ import {todosService} from "../../services/todosService";
 import {Todo} from "./Todo";
 
 const Todos = () => {
-    const {todos,setTodos}=useState([])
+    const [todos,setTodos]=useState([])
 
     useEffect(()=>{
         todosService.getAll().then(({data})=>setTodos(data))
