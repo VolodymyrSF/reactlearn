@@ -1,9 +1,9 @@
 import React from 'react';
-import {UsersContainer}from "./components/UsersContainer";
+import {CommentsContainer}from "./components/CommentsContainer";
 const App = () => {
     return (
         <div>
-           <UsersContainer/>
+           <CommentsContainer/>
         </div>
     );
 };
