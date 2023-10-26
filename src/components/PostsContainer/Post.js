@@ -4,7 +4,6 @@ const Post = ({post}) => {
 const {userId,id,title,body} = post;
     return (
         <div>
-            <h1>HELLO</h1>
             <div>userId:{userId}</div>
             <div>id:{id}</div>
             <div>title:{title}</div>
