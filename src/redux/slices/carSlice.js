@@ -3,7 +3,7 @@ import {createSlice} from "@reduxjs/toolkit";
 let initialState={
     cars:[],
     trigger:null,
-    updateCar:null
+    updateCar:null,
 };
 const carSlice = createSlice({
     name:'cars',
@@ -17,7 +17,7 @@ const carSlice = createSlice({
         },
         updateCar:(state,action)=>{
             state.updateCar=action.payload
-        }
+        },
     }
 });
 

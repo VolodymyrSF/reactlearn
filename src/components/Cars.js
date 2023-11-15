@@ -1,8 +1,8 @@
 import React, {useEffect} from 'react';
-
-import {carsService} from "../services";
 import {useDispatch, useSelector} from "react-redux";
 import {carsActions} from "../redux/slices";
+
+import {carsService} from "../services";
 import {Car} from "./Car";
 
 const Cars = () => {
